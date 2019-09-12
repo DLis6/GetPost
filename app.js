@@ -6,7 +6,7 @@ app.get('/', (req, res) => {
 });
 
 app.post('/hello', (req, res) => {
-    res.send("<h1> Hola " + req.body.name + "!</h1>");
+    res.send("<h1>Hola " + req.body.name + "!</h1>");
 })
 
 
